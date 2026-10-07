@@ -257,8 +257,8 @@ page("pt", "terms", "Termos de Uso", None, f"""
 <h2>12. Alterações</h2>
 <p>Podemos atualizar estes termos; a data no topo indica a última revisão. O uso continuado após a atualização representa concordância.</p>
 
-<h2>13. Lei aplicável e contato</h2>
-<p>Estes termos são regidos pelas leis do Brasil. Contato: {MAIL}</p>
+<h2>13. Contato</h2>
+<p>Contato: {MAIL}</p>
 """)
 
 # ---------------------------------------------------------------- en
@@ -418,7 +418,7 @@ page("en", "terms", "Terms of Use", None, f"""
 <h2>12. Changes</h2>
 <p>We may update these terms; the date at the top shows the latest revision. Continued use after an update means you agree.</p>
 
-<h2>13. Governing law and contact</h2>
-<p>These terms are governed by the laws of Brazil. Contact: {MAIL}</p>
+<h2>13. Contact</h2>
+<p>Contact: {MAIL}</p>
 """)
 print("ok")
