@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<style>
+:root{
+  --ground:#FBF6EC; --surface:#FFFFFF; --sunken:#F1E8D6;
+  --ink:#2E2A24; --brand:#A94E2D; --accent:#A94E2D;
+  --text2:#5E554A; --faint:#7A6F60; --hairline:rgba(46,42,36,.12);
+  --serif:ui-serif,"New York","Iowan Old Style",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+  font-size:16.5px;line-height:1.62;padding:0 22px 90px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:40rem;margin:0 auto}
+.lang{text-align:right;padding-top:18px;font-size:13px}
+header{position:relative;padding:40px 0 26px;text-align:center}
+header::before{content:"";position:absolute;left:50%;top:-10px;transform:translateX(-50%);
+  width:190px;height:190px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle at 40% 35%, rgba(217,164,65,.30), rgba(217,164,65,0) 62%),
+    radial-gradient(circle at 62% 60%, rgba(199,96,58,.20), rgba(199,96,58,0) 62%);
+  filter:blur(26px)}
+.brand{position:relative;font-family:var(--serif);font-size:23px;letter-spacing:.01em;color:var(--brand)}
+h1{position:relative;font-family:var(--serif);font-size:clamp(31px,8vw,40px);font-weight:500;
+  line-height:1.12;letter-spacing:-.015em;margin:12px 0 8px;text-wrap:balance}
+.updated{position:relative;font-size:13px;color:var(--faint);margin:0}
+.rule{height:1px;background:var(--hairline);margin:6px 0 4px}
+h2{font-family:var(--serif);font-size:20.5px;font-weight:500;letter-spacing:-.01em;margin:38px 0 8px;color:var(--ink)}
+p,li{color:var(--text2);max-width:60ch;margin:0 0 .85rem}
+ul{padding-left:1.15rem;margin:.2rem 0 1rem}
+li{margin:.34rem 0}
+li::marker{color:var(--accent)}
+strong{color:var(--ink);font-weight:640}
+a{color:var(--accent);text-underline-offset:2px;text-decoration-thickness:1px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+.card{background:var(--surface);border:1px solid var(--hairline);border-radius:16px;padding:20px 22px;
+  margin:26px 0 6px;box-shadow:0 1px 2px rgba(46,42,36,.03),0 10px 30px -18px rgba(46,42,36,.16)}
+.card p{margin:0}
+.card.quiet{background:var(--sunken);box-shadow:none}
+.docs{list-style:none;padding:0;margin:8px 0 0}
+.docs li{margin:0;border-top:1px solid var(--hairline);max-width:none}
+.docs li:first-child{border-top:0}
+.docs a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 2px;
+  text-decoration:none;font-family:var(--serif);font-size:17.5px;color:var(--ink)}
+.docs a span{font-family:var(--sans);font-size:13px;color:var(--faint)}
+.docs a:hover{color:var(--accent)}
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--hairline);font-size:13px;color:var(--faint);text-align:center}
+footer a{color:var(--faint)}
+@media (prefers-color-scheme:dark){
+ :root{--ground:#1A1713; --surface:#231F19; --sunken:#2A251E; --ink:#F1E8D6; --brand:#E9C46A;
+   --accent:#F0A07E; --text2:#CFC4B2; --faint:#A89A85; --hairline:rgba(241,232,214,.14)}
+ .card{box-shadow:none}
+}
+</style>
+<title>Talentos — Suporte</title>
+</head>
+<body>
+<div class="wrap">
+<div class="lang"><a href="en/support" hreflang="en">English</a></div>
+<header>
+<div class="brand">Talentos</div>
+<h1>Suporte</h1>
+<p class="updated">Quiz bíblico · Hermes Digital</p>
+</header>
+<div class="rule"></div>
+<div class="card">
+<p><strong>Fale com a gente:</strong> <a href="mailto:support@hermes.com.br">support@hermes.com.br</a></p>
+</div>
+
+<h2>Como podemos ajudar</h2>
+<p>Escreva para o e-mail acima contando o que aconteceu. Se for um problema no app, ajuda muito informar o modelo do iPhone, a versão do iOS e o que você estava fazendo na hora.</p>
+
+<h2>Encontrou um erro em uma pergunta?</h2>
+<p>Toque em “Reportar” na pergunta, dentro do app, ou escreva para <a href="mailto:support@hermes.com.br">support@hermes.com.br</a> com o texto da pergunta e a referência bíblica. Revisamos cada relato.</p>
+
+<h2>Assinatura</h2>
+<ul>
+<li><strong>Cancelar:</strong> Ajustes do iPhone → seu nome → Assinaturas → Talentos. Desinstalar o app não cancela a assinatura.</li>
+<li><strong>Restaurar:</strong> na tela do Premium, toque em “Restaurar compra”, usando a mesma conta Apple da compra.</li>
+<li><strong>Reembolso:</strong> é a Apple quem processa, em <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</li>
+</ul>
+
+<h2>Seus dados</h2>
+<p>O progresso fica só no aparelho. Para apagar tudo, use “Apagar todos os meus dados” nos Ajustes do app, ou desinstale o app. Detalhes na <a href="privacy">Política de Privacidade</a>.</p>
+
+<h2>Esqueci o PIN do perfil infantil</h2>
+<p>O PIN fica guardado apenas no seu aparelho e não temos como recuperá-lo. Escreva para <a href="mailto:support@hermes.com.br">support@hermes.com.br</a> e orientamos o que fazer.</p>
+
+<h2>Documentos</h2>
+<ul>
+<li><a href="terms">Termos de Uso</a></li>
+<li><a href="privacy">Política de Privacidade</a></li>
+</ul>
+
+<footer>Hermes Digital · Talentos · <a href="./">Documentos legais</a></footer>
+</div>
+</body>
+</html>
